@@ -1,4 +1,4 @@
-# WordPress CloakPanel - Mini Hidden Admin Panel
+# WordPress CloakPanel - Mini Hidden Javascript/PHP Wordpress Admin Panel
 ---
 ![CloakPanel Screenshot](./CloakPanel.png)
 ---
