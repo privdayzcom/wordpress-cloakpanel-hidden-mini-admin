@@ -1,4 +1,4 @@
-# WordPress CloakPanel
+# WordPress CloakPanel - Mini Hidden Admin Panel
 
 ### 📁 File Manager
 - Browse and navigate directory tree  
