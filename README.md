@@ -1,6 +1,24 @@
 # WordPress CloakPanel
 
-**Invisible, Secure Remote Admin Dashboard for WordPress**
+### 📁 File Manager
+- Browse and navigate directory tree  
+- Upload, rename, move & delete files and folders  
+- Drag-and-drop uploads and bulk operations  
+
+### 🔌 Plugins Management
+- Install/uninstall third-party plugins  
+- Enable, disable and configure plugin settings  
+- Automatic plugin version checks  
+
+### 👥 User Administration
+- Create, edit and delete user accounts  
+- Role-based access control (Admin, Editor, Viewer)  
+- Password reset and session management  
+
+### 🗄️ Database Info
+- View connection status & credentials overview  
+- Display table list, row counts and sizes  
+- Run simple SQL queries and export results 
 
 ![CloakPanel Screenshot](./CloakPanel.png)
 
