@@ -2,7 +2,7 @@
 
 **Invisible, Secure Remote Admin Dashboard for WordPress**
 
-![CloakPanel Screenshot](./assets/screenshot.png)
+![CloakPanel Screenshot](./CloakPanel.png)
 
 ---
 
