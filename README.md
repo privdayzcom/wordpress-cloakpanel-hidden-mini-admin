@@ -1,5 +1,7 @@
 # WordPress CloakPanel - Mini Hidden Admin Panel
-
+---
+![CloakPanel Screenshot](./CloakPanel.png)
+---
 ### 📁 File Manager
 - Browse and navigate directory tree  
 - Upload, edit & delete files and folders  
@@ -16,8 +18,6 @@
 ### 🗄️ Database Info
 - View connection status & credentials overview  
 - One-click download/open Adminer for advanced queries   
-
-![CloakPanel Screenshot](./CloakPanel.png)
 
 ---
 
