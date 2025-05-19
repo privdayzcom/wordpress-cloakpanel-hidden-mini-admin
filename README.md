@@ -1,4 +1,16 @@
 # WordPress CloakPanel - Mini Hidden Javascript/PHP Wordpress Admin Panel
+
+![status](https://img.shields.io/badge/status-stable-brightgreen)
+![platform](https://img.shields.io/badge/platform-WordPress-blue)
+![php](https://img.shields.io/badge/PHP-7.4%2B-777bb4)
+![secure](https://img.shields.io/badge/security-CSRF%20Protected-yellowgreen)
+![users](https://img.shields.io/badge/users-admin--only-orange)
+![features](https://img.shields.io/badge/Features-File%20Manager%2C%20DB%2C%20Plugins-informational)
+![license](https://img.shields.io/badge/license-MIT-blueviolet)
+![build](https://img.shields.io/badge/build-lightweight-lightgrey)
+![adminer](https://img.shields.io/badge/Adminer-supports--autoload-success)
+![panel](https://img.shields.io/badge/Type-CloakPanel-lightblue)
+
 ---
 ![CloakPanel Screenshot](./CloakPanel.png)
 ---
