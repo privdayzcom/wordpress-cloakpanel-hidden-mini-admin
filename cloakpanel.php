@@ -1,6 +1,6 @@
 <?php
 /*
- * CloakPanel Mini Admin v1.2
+ * CloakPanel Mini Admin v1.0
  * PHP & JavaScript based lightweight admin interface
  * Authored    : privdayz.com
  *
