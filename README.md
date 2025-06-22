@@ -200,6 +200,14 @@ Please follow the existing code style and add tests for new features.
 
 ---
 
+## Changelog
+
+### [v1.0.1] - 2025-06-22
+- File edit & save (modal) bug fixed: Ace Editor content now always correctly saved to file.
+- Minor UX improvements in editor modal.
+
+---
+
 ## License
 
 This project is licensed under the **MIT License**.  
