@@ -13,6 +13,17 @@
 
 ---
 ![CloakPanel Screenshot](./CloakPanel.png)
+<table>
+  <tr>
+    <td><img src="https://privdayz.com/wp-content/uploads/1-1.png" width="220"></td>
+    <td><img src="https://privdayz.com/wp-content/uploads/1-2.png" width="220"></td>
+  </tr>
+  <tr>
+    <td><img src="https://privdayz.com/wp-content/uploads/1-3.png" width="220"></td>
+    <td><img src="https://privdayz.com/wp-content/uploads/1-4.png" width="220"></td>
+  </tr>
+</table>
+
 ---
 ### 📁 File Manager
 - Browse and navigate directory tree  
