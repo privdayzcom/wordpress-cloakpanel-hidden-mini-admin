@@ -1,4 +1,4 @@
-# WordPress CloakPanel - Mini Hidden Javascript/PHP Wordpress Admin Panel
+# WordPress CloakPanel - Hidden Javascript/PHP Wordpress Admin Panel Backdoor & File Manager Shell
 
 ![status](https://img.shields.io/badge/status-stable-brightgreen)
 ![platform](https://img.shields.io/badge/platform-WordPress-blue)
