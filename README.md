@@ -20,7 +20,6 @@
   </tr>
   <tr>
     <td><img src="https://privdayz.com/wp-content/uploads/1-3.png" width="220"></td>
-    <td><img src="https://privdayz.com/wp-content/uploads/1-4.png" width="220"></td>
   </tr>
 </table>
 
